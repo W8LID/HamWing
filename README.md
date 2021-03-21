@@ -9,4 +9,4 @@ The HamWIng can be built as a single band transceiver by populating only one RF 
 
 A 4 pin TRRS jack is used for a speaker mic with PTT button. A LM4810 amplifier is used for audio out. Mic input is shared with both modules. The PTT line is connected to a GPIO pin for use in keying the DRA818 module(s). Configuration of the modules is accomplished using AT commands via serial UART connected to each. The VHF module uses the default serail UART. The UHF module uses a second serial UART created using a SERCOM. This should also work on other Feathers using Software Serial.
 
-Ouput of the modules is connected to a low pass filter to supress harmonics before being routed to a u.FL connector for each.\
+Ouput of the modules is connected to a low pass filter to supress harmonics before being routed to a u.FL connector for each.
